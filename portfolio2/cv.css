@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@500&family=Lobster&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    /* background: fixed; */
+}
+
+.container{
+    display: flex;
+}
+
+.sidebar{
+    background-color: rgb(219, 217, 217);
+    border: 2px solid black;
+    width: 230px;
+    font-family: 'Foldit', cursive;
+font-family: 'Instrument Serif', serif;
+
+    height: 100vh;
+}
+
+.sidebar nav{
+    padding: 34px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 50px;
+    padding: 40px 0;
+}
+
+.sidebar nav li a{
+  text-decoration: none;
+  color: black;
+}
+
+.main{
+    width: 80vw;
+    height: 100vh;
+}
+
+
+
+img{
+        float: right;
+        width: 148px;
+        height: 195px;
+        margin: 2px 60px;
+        border-radius: 55px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 222px;
+}
+
+h3{
+    margin: 11px 236px;
+}
+
+.write{
+    width: 68vw;
+    height: 200px;
+    border: 3px solid black;
+    margin: 28px 118px;
+    border-radius: 100px;
+}
+
+h2{
+    font-family: 'Foldit', cursive;
+font-family: 'Lobster', cursive;
+margin: -6px 240px;
+}
+
+.work{
+    width: 81vw;
+    height: 45vh;
+    /* border: 3px solid black; */
+}
+
+.work h1{
+    text-align: center;
+    margin: 10px 250px;
+}
+
+.work h3{
+    font-size: 25px;
+    /* text-align: center; */
+    margin-left: 88px;
+    margin-top: 35px;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+.work h4{
+    font-size: 20px;
+    margin: 5px 68px;
+}
+
+.work i{
+    font-size: 50px;
+    margin: 5px 138px;
+}
+
+.work p{
+    font-size: 25px;
+    font-family: 'Foldit', cursive;
+    font-family: 'Lobster', cursive;
+    margin: -126px 800px;
+
+}
+.work p:nth-of-type(2){
+    margin: 250px 250px;
+}
+
+.work p:nth-of-type(3){
+    margin: -263px 140px;
+}
+
+.work ul{
+    margin: 290px 309px;
+    font-size: 25px;
+    font-family: 'Foldit', cursive;
+    font-family: 'Lobster', cursive;
+}
+
+.buttons{
+    margin: -210px 500px;
+
+}
+
+.buttons button{
+    width: 200px;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 100px;
+    background-color: aqua;
+    color: black;
+    box-shadow: black;
+}
+
+.buttons button:hover{
+    box-shadow: aqua;
+    color: aqua;
+    background-color: black;
+}

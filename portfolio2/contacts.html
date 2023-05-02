@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Munna Portfolio</title>
+    <link href="contacts.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+   <div class="sidebar">
+    <nav>
+        <ul>
+            <li><a href="/">Home</a> </li>
+            <li><a href="/intro.html">My Intro</a></li>
+            <li><a href="/cv.html">CV</a></li>
+            <li><a href="/contacts.html">Contacts</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+
+        </ul>
+    </nav>
+   </div>
+   <div class="main">
+    <div class="contactform">
+        <h1>Enter Your Biodata</h1>
+         <fieldset>
+            <legend>Hello Visitor's</legend>
+     <form action="/action.php" method="get">
+     Enter Your name:<input type="text" placeholder="Munna Gupta" id="name" maxlength="50"><br>
+     Enter Your address:<input  id="address" type="text" placeholder="Ramchowk Mahadevapura"><br>
+     Enter Your Phone number:<input id="phone" type="number" placeholder="8864056153"><br>
+     Enter your mail Id:<input type="email" id="email" placeholder="munnarauniyar789@gmail.com"><br>
+    Enter Your Date of Birth:
+    <input id="dob" type="date" >
+    
+     <br>
+     Choose Your Year of Study:
+     <select name="year" id="year">
+        <option>Select Your Year Of Study</option>
+    <script>var max = new Date().getFullYear(),
+min = max - 99,
+select = document.getElementById('year');
+
+for (var i = min; i <= max; i++) {
+var opt = document.createElement('option');
+opt.value = i;
+opt.innerHTML = i;
+select.appendChild(opt);
+}</script>    
+     </select><br>
+     <div class="radio">
+Which type of course are you interested in?<br>
+<input type="radio" id="a" name="1" value="1">WebDevelopment
+<input type="radio" id="b" name="1" value="2">Coding
+<input type="radio" id="c" name="1" value="3">Ethical Hacking
+<input type="radio" id="d" name="1" value="4">Data Scientists
+</div>
+
+Mention Your Eligibility Criteria for the course you have chosen:<br>
+<input type="textarea" id="eligibility">
+
+
+
+     </form></fieldset>
+     
+        <input type="button" value="submit" id="submit"></div>
+    
+   </div> -->
+   </div>
+
+  
+</body>
+</html>

@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    background: fixed;
+}
+
+.container{
+    display: flex;
+}
+
+.sidebar{
+    background-color: rgb(219, 217, 217);
+    border: 2px solid black;
+    width: 230px;
+    font-family: 'Foldit', cursive;
+font-family: 'Instrument Serif', serif;
+
+    height: 100vh;
+}
+
+.sidebar nav{
+    padding: 34px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 50px;
+    padding: 40px 0;
+}
+
+.sidebar nav li a{
+  text-decoration: none;
+  color: black;
+}
+
+.main{
+    background-color: bisque;
+    width: 100vw;
+    height: 100vh;
+    /* display: inline-block; */
+}
+
+.blogcontainer{
+    margin:10px 50px;
+}
+
+#leader{
+    float: right;
+    border-radius: 50%;
+    width: 200px;
+}
+
+.blogitem1{
+       
+        
+        margin: 52px 10px;
+        width: 400px;
+        height: 50px;
+        font-size: 25px;
+}
+.space{
+    width: 100px;
+    height: 100px;
+}
+
+#js{
+    float: right;
+    border-radius: 1;
+    margin: -132px -149px;
+    width: 100px;
+}
+h1{
+    text-align: center;
+}
+
+.blogitem2{
+    margin: 70px 10px;
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+}
+
+#css{
+    float: right;
+    margin: -118px -323px;
+    border-radius: 10%;
+    width: 300px;
+}
+
+.blogitem3{
+    margin: 151px 10px;
+    width: 400px;
+    height: 55px;
+    font-size: 25px;
+}
+#java{
+    float: right;
+    margin: -138px -250px;
+    border-radius: 50%;
+    width: 164px;
+}
+.buttons button{
+    font-size: 20px;
+    
+    padding: 12px 7px;
+    border-radius:22px ;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 15px 10px;
+    background-color: aqua;
+
+}
+
+.buttons button a{
+    color: black;
+}
+
+
+.buttons button:hover{
+    color:  aqua;
+    background-color: white;
+}
